@@ -52,8 +52,9 @@ const Navigation = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <ChartBar className="h-8 w-8 text-blue-600" />
-              <span className="text-xl font-bold text-gray-900">SurveyPro</span>
+              <img src={"./TrippleM_Logo.png"} alt="" width={120}/>
+              {/* <ChartBar className="h-8 w-8 text-blue-600" />
+              <span className="text-xl font-bold text-gray-900">TrippleM</span> */}
             </Link>
           </div>
 
